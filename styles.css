@@ -1,0 +1,252 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the page */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+/* Logo styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    margin-right: 10px;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #4CAF50; /* Green color for natural vibe */
+}
+
+.pure-sweet {
+    color: #FFA500; /* Orange color for sweetness */
+    font-style: italic;
+}
+
+.logo-subtitle {
+    font-size: 1em;
+    color: #555;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background-color: #8bc34a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Product info section */
+#product-info {
+    padding: 20px;
+    text-align: center;
+}
+
+#product-info img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+/* Help Section styling */
+#help {
+    background-color: #e8f5e9; /* Soft green background */
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#help h2 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#help p {
+    color: #555;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-item h3 {
+    font-size: 1.2em;
+    color: #4CAF50;
+    margin-bottom: 5px;
+}
+
+.contact-item p {
+    font-size: 1em;
+    color: #333;
+}
+
+
+/* Purchase section */
+/* Purchase Section */
+#purchase {
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#purchase h2 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.price span {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #e91e63;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Modal Styling */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay effect */
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #333;
+}
+
+.modal-content .payment-options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.modal-content .payment-options button:hover {
+    background-color: #45a049;
+}
+
+
+#quantity {
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+#confirmation {
+    font-size: 1em;
+    text-align: center;
+}
+
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

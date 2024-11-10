@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velanseio PureSweet Delight - Natural Sweetener for Diabetics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section with Logo -->
+    <header>
+        <div class="logo-container">
+            <div class="icon"></div>
+            <div>
+                <h1 class="logo">Velanseio <span class="pure-sweet">PureSweet</span> Delight</h1>
+                <p class="logo-subtitle">Natural Sweetener for Diabetic Patients</p>
+            </div>
+        </div>
+        <p>The Pure Natural Sweetener for Diabetic Patients, made from Monk Fruit.</p>
+    </header>
+
+    <!-- Product Section -->
+    <section id="product-info">
+        <img src="C:\Users\manth\OneDrive\Desktop\Business Plan\sweetner.jpg" alt="Velanseio PureSweet Delight">
+        <h2>PureSweet Delight - Nature's Sweetness, No Sugar Spike</h2>
+        <p>Discover a sweetener that's safe, natural, and ideal for diabetics. Velanseio PureSweet Delight is crafted from monk fruit to offer a low-glycemic sweetness with zero artificial ingredients.</p>
+        <button onclick="toggleDetails()">More Details</button>
+        <div id="details" style="display: none;">
+            <h5>
+                100% natural and safe for diabetics <br>
+                Low glycemic index<br>
+                No artificial additives<br>
+                Perfect for coffee, tea, and cooking
+            </h5>
+        </div>
+    </section>
+
+
+
+    <!-- Purchase Section -->
+    <section id="purchase">
+        
+        <p class="price">Price: <span>₹499</span></p>
+        <button id="buyNowBtn">Buy Now</button>
+    
+        <!-- Payment Options Modal -->
+        <div id="paymentModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2>Select a Payment Method</h2>
+                <div class="payment-options">
+                    <button onclick="alert('Google Pay Selected')">Google Pay</button>
+                    <button onclick="alert('PhonePe Selected')">PhonePe</button>
+                    <button onclick="alert('Paytm Selected')">Paytm</button>
+                    <button onclick="alert('Other Payment Selected')">Other</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <!-- Help Section -->
+<section id="help">
+    <h2>Need Help?</h2>
+    <p>We are here to assist you. Reach out to us!</p>
+    <div class="contact-info">
+        <div class="contact-item">
+            <h3>📞 Phone</h3>
+            <p>7033131241</p>
+        </div>
+        <div class="contact-item">
+            <h3>📧 Email</h3>
+            <p>support@velanseio.com</p>
+        </div>
+    </div>
+</section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Velanseio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
